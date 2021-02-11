@@ -16,8 +16,6 @@ boston=pickle.load(open('Boston_model.pickle','rb'))
 diabetis=pickle.load(open('Diabets.pickle','rb'))
 #Heart disease
 heart=pickle.load(open('heart_model.pickle','rb'))
-#IPL prediction
-ipl=pickle.load(open('random_model_1.pickle','rb'))
 #Chances of Admission
 admin=pickle.load(open('Admission_model.pickle','rb'))
 #Human resource analysis
@@ -100,73 +98,6 @@ def predictdiabetic():
         return render_template('diabetis.html',prediction=prediction)
 
 
-#--------------ipl--------------#
-
-
-@app.route('/ipl')  # route to display the home page
-#@cross_origin()
-def iplscore():
-    return render_template("ipl.html")
-
-
-@app.route('/iplpredict', methods=['POST'])  # route to show the predictions in a web UI
-#@cross_origin()
-def iplpredict():
-    temp_array=list()
-    if request.method == 'POST':
-            #  reading the inputs given by the user
-        runs=int(request.form['runs'])
-        wickets=int(request.form['wickets'])
-        overs=float(request.form['overs'])
-        runs_last_5=int(request.form['runs_last_5'])
-        wickets_last_5=int(request.form['wickets_last_5'])
-
-        batting_team = request.form['bat_team']
-        if batting_team == 'Chennai Super Kings':
-            temp_array = temp_array + [1, 0, 0, 0, 0, 0, 0, 0]
-        elif batting_team == 'Delhi Daredevils':
-            temp_array = temp_array + [0, 1, 0, 0, 0, 0, 0, 0]
-        elif batting_team == 'Kings XI Punjab':
-            temp_array = temp_array + [0, 0, 1, 0, 0, 0, 0, 0]
-        elif batting_team == 'Kolkata Knight Riders':
-            temp_array = temp_array + [0, 0, 0, 1, 0, 0, 0, 0]
-        elif batting_team == 'Mumbai Indians':
-            temp_array = temp_array + [0, 0, 0, 0, 1, 0, 0, 0]
-        elif batting_team == 'Rajasthan Royals':
-            temp_array = temp_array + [0, 0, 0, 0, 0, 1, 0, 0]
-        elif batting_team == 'Royal Challengers Bangalore':
-            temp_array = temp_array + [0, 0, 0, 0, 0, 0, 1, 0]
-        elif batting_team == 'Sunrisers Hyderabad':
-            temp_array = temp_array + [0, 0, 0, 0, 0, 0, 0, 1]
-
-        bowling_team = request.form['bowl_team']
-        if bowling_team == 'Chennai Super Kings':
-            temp_array = temp_array + [1, 0, 0, 0, 0, 0, 0, 0]
-        elif bowling_team == 'Delhi Daredevils':
-            temp_array = temp_array + [0, 1, 0, 0, 0, 0, 0, 0]
-        elif bowling_team == 'Kings XI Punjab':
-            temp_array = temp_array + [0, 0, 1, 0, 0, 0, 0, 0]
-        elif bowling_team == 'Kolkata Knight Riders':
-            temp_array = temp_array + [0, 0, 0, 1, 0, 0, 0, 0]
-        elif bowling_team == 'Mumbai Indians':
-            temp_array = temp_array + [0, 0, 0, 0, 1, 0, 0, 0]
-        elif bowling_team == 'Rajasthan Royals':
-            temp_array = temp_array + [0, 0, 0, 0, 0, 1, 0, 0]
-        elif bowling_team == 'Royal Challengers Bangalore':
-            temp_array = temp_array + [0, 0, 0, 0, 0, 0, 1, 0]
-        elif bowling_team == 'Sunrisers Hyderabad':
-            temp_array = temp_array + [0, 0, 0, 0, 0, 0, 0, 1]
-
-
-        # predictions using the loaded model file
-        temp_array = temp_array + [overs, runs, wickets, runs_last_5, wickets_last_5]
-        data=np.array([temp_array])
-
-        prediction = int(ipl.predict(data)[0])
-        prediction_text='The final score predicted range is: '
-        print('prediction is', prediction)
-        # showing the prediction results in a UI
-        return render_template('ipl.html',lower_limit='The final score predicted range is {}'.format(prediction - 10),upper_limit='-{}'.format(prediction + 5))
 
 
 #------------Heart disease prediction----------
