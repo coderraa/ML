@@ -2,7 +2,7 @@
 
 
 
-# Multiple-Machine-learning-projects
+# Multiple-Machine-Learning-Projects
 
 __Projects Included__
 1. Boston House Price Prediction.
@@ -15,7 +15,7 @@ __Projects Included__
 8. Employee Attrition Prediction.
 9. Cardiovascular Disease prediction.
 
-__Tools used__:
+__Tools Used__:
 <br>
 <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" width=50 height=50>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/PyCharm_Logo.svg/1024px-PyCharm_Logo.svg.png" width=50 height=50>
@@ -27,7 +27,7 @@ __Tools used__:
 
 <br>
 
-**Techniques involved**
+**Techniques Involved**
 1. Problem statement
 2. Data collection.
 3. Data loading.
