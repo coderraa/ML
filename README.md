@@ -1,4 +1,4 @@
-**Rahul Singh Machine Learning App**<img src="https://i.stack.imgur.com/hzk6C.gif" width=70 height=35>
+**Rahul Singh Machine Learning App**<img src="https://i.stack.imgur.com/hzk6C.gif" width=150 height=75>
 
 # Multiple-Machine-learning-projects
 
