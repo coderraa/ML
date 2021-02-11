@@ -1,6 +1,6 @@
-**Rahul Singh Machine Learning App**<img src="https://i.stack.imgur.com/hzk6C.gif" width=35 height=35>
+**Rahul Singh Machine Learning App**<img src="https://i.stack.imgur.com/hzk6C.gif" width=70 height=35>
 
-# Multiple-Machine-learning-projecs
+# Multiple-Machine-learning-projects
 
 __Projects Included__
 1. Boston House Price Prediction.
