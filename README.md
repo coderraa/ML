@@ -1,22 +1,17 @@
-**Hello Welcome to Rahul Singh machine learning world**<img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width=35 height=35>
+**Rahul Singh Machine Learning App**<img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width=35 height=35>
 
-# Combination-of-all-Machine-learning-projecs
+# Multiple-Machine-learning-projecs
 
-This repository consists of all my machine learning projects around 12 projects end to end deployed at one place to make simplicity for the end users.
-
-__Projects that i've included__
-1. Boston House price prediction.
-2. Diabetis prediction
-3. Flight fare prediction.
-4. Heart disease prediction.
-5. IPL Score prediction.
-6. Predicting the chances of admission in to UCLA.
-7. Car price prediction.
-8. Human resource analysis.
-9. Loan approval prediction.
-10. Data scientist salary prediction.
-11. Employee attrition prediction.
-12. Cardio vascular disease prediction.
+__Projects Included__
+1. Boston House Price Prediction.
+2. Diabetis Prediction
+3. Heart Disease Prediction.
+4. Admission Chance Prediction.
+5. Car Price Prediction.
+6. Loan Approval Prediction.
+7. Data Science Salary Prediction.
+8. Employee Attrition Prediction.
+9. Cardiovascular Disease prediction.
 
 __Tools used__:
 <br>
