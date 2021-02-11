@@ -52,7 +52,6 @@ __Tools Used__:
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" width=70 height=60>
 <img src="https://miro.medium.com/max/765/1*cyXCE-JcBelTyrK-58w6_Q.png" width=70 height=60>
 <img src="https://miro.medium.com/max/800/1*Q5EUk28Xc3iCDoMSkrd1_w.png" width=70 height=60>
-<img src="https://pbs.twimg.com/media/ECqnsRLXUAQpNjq.jpg" width=70 height=60>
-<img src="https://i.ibb.co/tD2sDRd/58480873cef1014c0b5e48ea.png" width=70 height=60>
+
 
 
