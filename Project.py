@@ -14,8 +14,6 @@ import os, sys, glob, re
 boston=pickle.load(open('Boston_model.pickle','rb'))
 #For Diabetis model
 diabetis=pickle.load(open('Diabets.pickle','rb'))
-#For Flight prediction
-flight=pickle.load(open('Flight.pickle','rb'))
 #Heart disease
 heart=pickle.load(open('heart_model.pickle','rb'))
 #IPL prediction
