@@ -46,11 +46,11 @@ __Tools used__:
 
 **Packages**
 <br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" width=70 height=60>
-<img src="https://miro.medium.com/max/2528/1*9C1ltf0EV_8tzn5S9U3XNA.png" width=70 height=60>
-<img src="https://numfocus.org/wp-content/uploads/2017/10/Numpypng.png" width=70 height=60>
-<img src="https://cdn.worldvectorlogo.com/logos/flask.svg" width=70 height=60>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png" width=70 height=60>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" width=70 height=60>
+<img src="https://miro.medium.com/max/765/1*cyXCE-JcBelTyrK-58w6_Q.png" width=70 height=60>
+<img src="https://miro.medium.com/max/800/1*Q5EUk28Xc3iCDoMSkrd1_w.png" width=70 height=60>
 <img src="https://pbs.twimg.com/media/ECqnsRLXUAQpNjq.jpg" width=70 height=60>
-<img src="https://littleml.files.wordpress.com/2019/09/automl-2.png?w=584&h=269" width=70 height=60>
+<img src="http://assets.stickpng.com/thumbs/58480873cef1014c0b5e48ea.png" width=70 height=60>
 
 
