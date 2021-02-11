@@ -18,8 +18,6 @@ diabetis=pickle.load(open('Diabets.pickle','rb'))
 heart=pickle.load(open('heart_model.pickle','rb'))
 #Chances of Admission
 admin=pickle.load(open('Admission_model.pickle','rb'))
-#Human resource analysis
-classifier=pickle.load(open('Human_model.pkl','rb'))
 #Loan approval prediction
 loanapp=pickle.load(open('Load_model_pred.pickle','rb'))
 #data science salry
@@ -347,132 +345,7 @@ def carpage():
         # showing the prediction results in a UI
         return render_template('car.html', prediction_text='Your estimated car price is: {}'.format(prediction[0]))
 
-#--------Human resource analysis--------
 
-
-@app.route('/human')
-def human():
-    return render_template('humanresource.html')
-
-
-@app.route('/humanpredict', methods=['POST'])
-def humanpage():
-    if request.method == 'POST':
-        city = int(request.form['city'])
-        index_city = float(request.form['city_developement_index'])
-        gender = int(request.form['gender'])
-        exp = int(request.form['relevent_experience'])
-        univer = int(request.form['enrolled_university'])
-        educ_level = int(request.form['education_level'])
-        exp_level = float(request.form['experience'])
-        size = int(request.form['company_size'])
-        new_job = float(request.form['last_new_job'])
-        train_hours = float(request.form['training_hours'])
-
-        major = request.form['major_discipline']
-
-        if (major == 'Arts'):
-            Arts = 1
-            Bussiness_Degree = 0
-            Humanities = 0
-            STEM = 0
-            No_Major = 0
-
-        elif (major == 'Bussiness Degree'):
-            Arts = 0
-            Bussiness_Degree = 1
-            Humanities = 0
-            STEM = 0
-            No_Major = 0
-
-        elif (major == 'Humanities'):
-            Arts = 0
-            Bussiness_Degree = 0
-            Humanities = 1
-            STEM = 0
-            No_Major = 0
-        elif (major == 'STEM'):
-            Arts = 0
-            Bussiness_Degree = 0
-            Humanities = 0
-            STEM = 1
-            No_Major = 0
-        elif (major == 'No Major'):
-            Arts = 0
-            Bussiness_Degree = 0
-            Humanities = 0
-            STEM = 0
-            No_Major = 1
-        else:
-            Arts = 0
-            Bussiness_Degree = 0
-            Humanities = 0
-            STEM = 0
-            No_Major = 0
-
-        type = request.form['company_type']
-
-        if (type == 'Early Stage Startup'):
-            Early_Stage_Startup = 1
-            Funded_Startup = 0
-            NGO = 0
-            Other = 0
-            Public_Sector = 0
-            Pvt_Ltd = 0
-        elif (type == 'Funded Startup'):
-            Early_Stage_Startup = 0
-            Funded_Startup = 1
-            NGO = 0
-            Other = 0
-            Public_Sector = 0
-            Pvt_Ltd = 0
-        elif (type == 'NGO'):
-            Early_Stage_Startup = 0
-            Funded_Startup = 0
-            NGO = 1
-            Other = 0
-            Public_Sector = 0
-            Pvt_Ltd = 0
-        elif (type == 'Other'):
-            Early_Stage_Startup = 0
-            Funded_Startup = 0
-            NGO = 0
-            Other = 1
-            Public_Sector = 0
-            Pvt_Ltd = 0
-        elif (type == 'Public Sector'):
-            Early_Stage_Startup = 0
-            Funded_Startup = 0
-            NGO = 0
-            Other = 0
-            Public_Sector = 1
-            Pvt_Ltd = 0
-        elif (type == 'Pvt Ltd'):
-            Early_Stage_Startup = 0
-            Funded_Startup = 0
-            NGO = 0
-            Other = 0
-            Public_Sector = 0
-            Pvt_Ltd = 1
-        else:
-            Early_Stage_Startup = 0
-            Funded_Startup = 0
-            NGO = 0
-            Other = 0
-            Public_Sector = 0
-            Pvt_Ltd = 0
-
-        data = np.array([[city, index_city, gender, exp, univer, educ_level, exp_level,
-                          size, new_job, train_hours, Arts, Bussiness_Degree, Humanities, STEM, No_Major,
-                          Early_Stage_Startup,
-                          Funded_Startup,
-                          NGO,
-                          Other,
-                          Public_Sector,
-                          Pvt_Ltd]])
-        prediction = classifier.predict(data)
-
-        return render_template('humanresource.html', prediction=prediction)
 
 
 
