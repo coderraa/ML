@@ -22,7 +22,7 @@ __Tools Used__:
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Spyder_logo.svg/1024px-Spyder_logo.svg.png" width=50 height=50>
 <img src="https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default" width=50 height=50>
 <img src="https://iconape.com/wp-content/files/dw/348983/svg/348983.svg" width=50 height=50>
-<img src="https://pythonforfinance.net/wp-content/uploads/2019/07/Jupyter.jpg" width=50 height=50>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" width=50 height=50>
 <img src="https://colab.research.google.com/img/colab_favicon.ico" height=50 width=50>
 
 <br>
