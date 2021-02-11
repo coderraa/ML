@@ -1,4 +1,4 @@
-**Hello Welcome to my machine learning world**<img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width=35 height=35>
+**Hello Welcome to Rahul Singh machine learning world**<img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width=35 height=35>
 
 # Combination-of-all-Machine-learning-projecs
 
