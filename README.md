@@ -46,21 +46,8 @@ __Tools used__:
 13. Predictions.
 14. Deployement.
 
-Below the website frontend look like.<br>
-<img src="https://user-images.githubusercontent.com/64009514/107469321-8c1ae400-6b8f-11eb-8f3f-72d0c14fc94d.jpg" width=900 height=400>
 
-Here the projects page<br>
-<img src="https://user-images.githubusercontent.com/64009514/107469637-19f6cf00-6b90-11eb-9ca9-1cb5cbd72e95.jpg" width=900 height=400>
 
-The main aim of the project is keep all my machine learning projects at one place to make it simplicity for the end users.In this project, various algorithems are applied used to predicted the various kinds of predictions on the data to get high performance on the test data.
-
-**For future predictions just click here :**[PROJECT](https://mighty-springs-38077.herokuapp.com/)
-
-***Feel free to contact me***<br>
-[Linkedln](https://www.linkedin.com/in/praneeth-kumar-84a15317b/)<br>
-***Check out my articles***<br>
-[inblog](https://inblog.in/@PraneethKumar)
-<br>
 
 **Packages**
 <br>
