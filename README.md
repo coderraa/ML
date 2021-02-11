@@ -14,6 +14,8 @@ __Projects Included__
 7. Data Science Salary Prediction.
 8. Employee Attrition Prediction.
 9. Cardiovascular Disease prediction.
+![1](https://user-images.githubusercontent.com/57325166/107668424-abf8f780-6cb6-11eb-8e07-1de0b5cb2654.png)
+![2](https://user-images.githubusercontent.com/57325166/107668446-b2876f00-6cb6-11eb-94f1-caf745b7011a.png)
 
 __Tools Used__:
 <br>
