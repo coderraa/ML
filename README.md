@@ -1,4 +1,4 @@
-**Rahul Singh Machine Learning App**<img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width=35 height=35>
+**Rahul Singh Machine Learning App**<img src="https://i.stack.imgur.com/hzk6C.gif" width=35 height=35>
 
 # Multiple-Machine-learning-projecs
 
