@@ -1,4 +1,5 @@
 **Rahul Singh Machine Learning App**
+**Author: Rahul Singh**
 
 
 
